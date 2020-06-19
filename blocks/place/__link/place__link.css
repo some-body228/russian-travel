@@ -1,0 +1,20 @@
+.place__link{
+    font-size: 1.2rem;
+    line-height: 122%;
+/* identical to box height, or 122% */
+
+    text-decoration-line: underline;
+    position: absolute;
+    bottom: 55px;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+.place__link:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 600px) {
+    .place__link{
+        display: none;
+    }
+}

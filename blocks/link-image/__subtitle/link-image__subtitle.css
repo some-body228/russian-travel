@@ -1,0 +1,15 @@
+.link-image__subtitle{
+    font-size: 1.2rem;
+    line-height: 122%;
+    margin-top: 32px;
+    color: white;
+    margin: 32px auto 0;
+}
+
+@media screen and (max-width: 600px) {
+    .link-image__subtitle{
+        font-size: 0.9rem;
+        line-height: 114%;
+        width: 288px;
+    }
+}}

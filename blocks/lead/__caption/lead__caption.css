@@ -1,0 +1,14 @@
+.lead__caption{
+    font-size: 10px;
+    line-height: 14px;
+/* identical to box height, or 140% */
+text-transform: uppercase;
+margin: 8px 0 0 ;
+letter-spacing: 0.2rem;
+font-weight: lighter;
+}
+@media screen and (max-width: 790px) {
+    .lead__caption{
+        padding-left: 3%;
+    }
+}

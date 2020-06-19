@@ -1,0 +1,16 @@
+.link-image__hover-dark{
+text-align: center;
+background-color: rgba(16,17,18, 0.3);
+transition: background-color 0.05s linear;
+width: 100%;
+height: calc(100% - 3px);
+position: absolute;
+top: 0;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.link-image__hover-dark:hover{
+    background-color: rgba(16,17,18, 0.8);
+}

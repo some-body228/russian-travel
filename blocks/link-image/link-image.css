@@ -1,0 +1,17 @@
+@import url(./__title/link-image__title.css);
+@import url(./__subtitle/link-image__subtitle.css);
+@import url(./__hover-dark/link-image__hover-dark.css);
+@import url(./__image/link-image__image.css);
+.link-image{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;  
+    min-width: 1000px;  
+}
+@media screen and (max-width: 1024px) {
+    .link-image{
+        width: 100%;
+        min-width: 0;
+    }
+}
+

@@ -1,0 +1,18 @@
+.place__text{
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin: 0;
+
+}
+@media screen and (max-width: 768px) {
+    .place__text{
+       font-size: 1rem;
+       line-height: 162%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .place__text{
+        width: 93%;
+        margin: 0 auto;
+    }
+}
