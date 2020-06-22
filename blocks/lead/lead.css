@@ -3,7 +3,7 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
 .lead{
-    width: 80%;
+    width: 77%;
     min-width:740px;
     margin:0 auto 92px; 
 }

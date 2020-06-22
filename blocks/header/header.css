@@ -6,8 +6,15 @@
     align-items: center;
     padding: 28px 48px  0;
 }
+@media screen and (max-width: 1024px) {
+    .header{ padding: 28px 0 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width: 768px) {
-    .header{ padding: 28px 3% 0;
+    .header{ width: 93%;
+        margin: 0 auto;
         
     }
 }

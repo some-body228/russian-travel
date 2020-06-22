@@ -4,13 +4,14 @@
 @import url(./__image/link-image__image.css);
 .link-image{
     position: relative;
-    width: 90%;
-    margin: 0 auto;  
-    min-width: 1000px;  
+    width: 92.5%;
+    margin: 0 auto;   
+    min-width: 1000px;
 }
 @media screen and (max-width: 1024px) {
     .link-image{
         width: 100%;
+        margin: 0;
         min-width: 0;
     }
 }
