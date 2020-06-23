@@ -3,7 +3,7 @@ text-align: center;
 background-color: rgba(16,17,18, 0.3);
 transition: background-color 0.05s linear;
 width: 100%;
-height: calc(100% - 3px);
+height: 100%;
 position: absolute;
 top: 0;
 display: flex;

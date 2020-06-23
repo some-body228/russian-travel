@@ -7,19 +7,20 @@
 .place{
     list-style-type: none;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 47% 47%;
     grid-template-areas: 
     "title link"
     "image text"
     "image text";
     margin-top: 10%;
+    grid-column-gap: 6%;
 }
 .place:first-of-type{
     margin-top: 0;
 }
 @media screen and (max-width: 1024px) {
     .place{
-        grid-template-columns: 55% 45%;
+        grid-template-columns: 52% 42%;
     }
 }
 @media screen and (max-width: 600px) {

@@ -1,5 +1,8 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang/header__lang.css);
+@import url(./__lang/_active/header__lang_active.css);
+@import url(./__lang-container/header__lang-container.css);
+
 .header{
     display: flex;
     justify-content: space-between;

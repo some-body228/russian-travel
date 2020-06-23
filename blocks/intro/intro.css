@@ -1,6 +1,9 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__facts/intro__facts.css);
+@import url(./__fact/intro__fact.css);
+@import url(./__number/intro__number.css);
+
 .intro{
     width: 77%;
     margin: 0 auto;
