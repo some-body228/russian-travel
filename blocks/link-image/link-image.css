@@ -2,11 +2,13 @@
 @import url(./__subtitle/link-image__subtitle.css);
 @import url(./__hover-dark/link-image__hover-dark.css);
 @import url(./__image/link-image__image.css);
+@import url(./__link/link-image__link.css);
 .link-image{
     position: relative;
     width: 92.5%;
     margin: 0 auto;   
     min-width: 1000px;
+
 }
 @media screen and (max-width: 1024px) {
     .link-image{

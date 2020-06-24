@@ -4,14 +4,17 @@
     margin-top: 32px;
     color: white;
     margin: 32px auto 0;
-    width: 358px;
+    max-width: 358px;
+    position: relative;
+    z-index: 1;
+
 }
 
 @media screen and (max-width: 600px) {
     .link-image__subtitle{
         font-size: 0.9em;
         line-height: 114%;
-        width: 280px;
+        max-width: 280px;
         margin-top: 16px;
     }
 }}

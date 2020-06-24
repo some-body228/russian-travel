@@ -4,15 +4,28 @@ font-size: 4.5rem;
 line-height: 106%;
 color: white;
 text-align: center;
-width: 560px;
-top:0;
+max-width: 560px;
 margin: 0 auto;
+position: relative;
+z-index: 1;
+padding-top: 20%;
 
+}
+@media screen and (max-width: 800px) {
+    .link-image__title{
+        padding-top: 13%;
+    }
 }
 @media screen and (max-width: 600px) {
     .link-image__title{
+        padding-top: 20%;
         font-size: 2rem;
         line-height: 109%;
-        width: 230px;
+        max-width: 230px;
     }
-}}
+}
+@media screen and (max-width: 400px) {
+    .link-image__title{
+        padding-top: 13%;
+    }
+}
